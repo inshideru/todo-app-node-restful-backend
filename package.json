@@ -8,7 +8,7 @@
     "npm": "4.1.2"
   },
   "scripts": {
-    "start": "node src/loader.js",
+    "start": "node loader.js",
     "dev": "cross-env NODE_ENV=development nodemon loader.js",
     "production": "pm2 start src/loader.js --name todo-app"
   },
